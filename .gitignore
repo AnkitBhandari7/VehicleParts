@@ -33,5 +33,5 @@ bld/
 Thumbs.db
 
 # --- Ignore AppSettings secrets ---
-**/appsettings.json
 **/appsettings.Development.json
+**/appsettings.local.json
