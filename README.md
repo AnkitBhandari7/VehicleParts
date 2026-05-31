@@ -10,10 +10,23 @@
 </p>
 
 <p align="center">
+  <a href="https://vehicleparts-web.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-vehicleparts--web.onrender.com-brightgreen?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://vehicleparts-web.onrender.com"><b>🌐 https://vehicleparts-web.onrender.com</b></a>
+  &nbsp;|&nbsp;
+  <b>Default Login:</b> admin@autopartpro.com &nbsp;/&nbsp; Admin@123
+</p>
+
+<p align="center">
   A state-of-the-art Web Application designed to streamline operations for automotive part dealerships, service garages, and customers. Feature-rich dashboards for <b>Administrators</b>, <b>Staff</b>, and <b>Customers</b>.
 </p>
 
 ---
+
 
 ## 🛠️ System Architecture
 
