@@ -1,0 +1,7 @@
+**/.git
+**/.gitignore
+**/.vs
+**/bin
+**/obj
+**/*.user
+**/*.sln.docstates

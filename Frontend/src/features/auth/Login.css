@@ -1,0 +1,125 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Inter", sans-serif; }
+
+.login-container { min-height: 100vh; display: flex; flex-direction: column; background: #fff; }
+
+.login-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+  border-bottom: 1px solid #e2e8f0;
+  background: #fff;
+  position: relative;
+  z-index: 10;
+}
+.nav-left { display: flex; align-items: center; gap: 1.5rem; }
+.logo { font-weight: 700; font-size: 0.95rem; color: #0f172a; }
+.nav-left a { font-size: 0.8rem; color: #64748b; text-decoration: none; }
+.nav-left a:hover { color: #0f172a; }
+.system-status { font-size: 0.75rem; font-weight: 600; background: #0f172a; color: #fff; padding: 0.3rem 0.75rem; border-radius: 6px; }
+
+.login-content { display: flex; flex: 1; }
+
+.login-left {
+  width: 55%;
+  background: url("/login-bg.png") center center / cover no-repeat;
+  position: relative;
+  min-height: 500px;
+}
+.left-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(8,14,44,0.85) 0%, rgba(15,23,42,0.75) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2.5rem;
+}
+.left-overlay h1 { font-size: 1.8rem; font-weight: 700; color: #fff; line-height: 1.2; margin-bottom: 0.75rem; }
+.left-overlay p { font-size: 0.82rem; color: #94a3b8; line-height: 1.6; margin-bottom: 1.5rem; max-width: 320px; }
+.stats-row { display: flex; gap: 2rem; }
+.stat h3 { font-size: 1.2rem; font-weight: 700; color: #fff; }
+.stat span { font-size: 0.75rem; color: #94a3b8; }
+
+.login-right {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #fff;
+}
+.form-container { width: 100%; max-width: 360px; }
+.form-container h2 { font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem; }
+.subtitle { font-size: 0.82rem; color: #64748b; margin-bottom: 1.5rem; }
+.error-box { background: #fef2f2; border: 1px solid #fca5a5; color: #dc2626; padding: 0.6rem 0.9rem; border-radius: 8px; font-size: 0.8rem; margin-bottom: 1rem; }
+
+.input-group { margin-bottom: 0.9rem; }
+.input-group input {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #0f172a;
+  outline: none;
+  background: #f8fafc;
+  transition: border 0.15s;
+}
+.input-group input:focus { border-color: #3b82f6; background: #fff; }
+.input-group input::placeholder { color: #94a3b8; }
+
+.password-group { position: relative; }
+.password-group input { padding-right: 3rem; }
+.toggle-password {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.form-actions { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem; }
+.remember-me { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; color: #64748b; cursor: pointer; }
+.remember-me input { cursor: pointer; }
+.forgot-password { font-size: 0.8rem; color: #3b82f6; text-decoration: none; }
+.forgot-password:hover { text-decoration: underline; }
+
+.submit-btn {
+  width: 100%;
+  padding: 0.7rem;
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-bottom: 1.25rem;
+}
+.submit-btn:hover:not(:disabled) { background: #0f172a; }
+.submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.no-account { font-size: 0.8rem; color: #64748b; text-align: center; }
+.no-account strong { color: #3b82f6; }
+
+.login-footer {
+  border-top: 1px solid #e2e8f0;
+  padding: 0.9rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+.login-footer p { font-size: 0.72rem; color: #94a3b8; }
+.footer-links { display: flex; gap: 1.25rem; }
+.footer-links a { font-size: 0.72rem; color: #94a3b8; text-decoration: none; }
+.footer-links a:hover { color: #0f172a; }
