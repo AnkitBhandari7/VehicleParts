@@ -123,8 +123,6 @@ Ensure PostgreSQL is running and create a database named `VehiclePartsDB`. Alter
 
 This section outlines the core technical implementations, architecture decisions, and modules that I built during this project:
 
-> [!NOTE]
-> *Edit this section in your GitHub README to highlight the specific features, UI pages, or API controllers you personally implemented. This is a great way to showcase your individual skillset to recruiters and examiners!*
 
 ### 💻 Key Code Implementations
 * **Dynamic Monorepo Consolidation**: Refactored the independent repositories into a clean, modern monorepo layout that integrates C# and React into a unified codebase.
