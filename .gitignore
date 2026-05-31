@@ -31,3 +31,7 @@ bld/
 *.userprefs
 .DS_Store
 Thumbs.db
+
+# --- Ignore AppSettings secrets ---
+**/appsettings.json
+**/appsettings.Development.json
